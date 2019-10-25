@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.controledegastos.MainActivity">
+    <item
+        android:id="@+id/gastos"
+        android:orderInCategory="100"
+        android:title="@string/gastos"
+        app:showAsAction="never" />
+
+    <item android:id="balanco"
+        android:orderInCategory="100"
+        android:title="balanço"
+        app:showAsAction="never"/>
+</menu>
